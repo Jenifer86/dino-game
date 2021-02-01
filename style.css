@@ -1,0 +1,45 @@
+.body {
+    background: aquamarine;
+}
+
+.dina {
+    width: 60px;
+    height: 60px;
+    background-image: url(dina.png);
+    position: absolute;
+    bottom: 0;
+}
+
+.cacto {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url(cacto.jpg);
+    bottom: 0;
+}
+
+.gamer-over {
+    text-align: center;
+    color: black;
+    margin-top: 150 px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes slideright {
+    from {
+        background-position: 70000%;
+    }
+    to {
+        background-position: 0;
+    }
+}
+
+.background {
+    position: absolute;
+    bottom: 0;
+    background-image: url(background.jpg);
+    background-repeat: repeat-x;
+    animation: slideright 600s infinite linear;
+    width: 100%;
+    height: 200px;
+}
